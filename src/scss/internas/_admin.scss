@@ -1,0 +1,47 @@
+.alerta{
+    text-align: center;
+    border-radius: .5rem;
+    margin: 2rem;
+    padding:1rem 0;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: $blanco;
+    &.error{
+        background-color: rgba(228, 12, 12, 0.603);
+    }
+    &.correcto{
+        background-color: $verde;
+    }
+}
+
+
+table.propiedades{
+    margin-top:4rem;
+    width: 100%;
+    border-spacing: 0;
+    thead{
+        background-color: $verde;
+        th{
+            color: $blanco;
+            padding: 2rem;
+        }
+    }
+    tbody{
+        td{
+            @include tablet{
+                text-align: center;
+                font-weight: 600;
+            img{
+                display: inline-block;
+            }
+            }
+            
+        }
+    }
+}
+
+.imagen-tabla{
+    width: 15rem;
+    max-height: 15rem;
+}

@@ -1,0 +1,15 @@
+.nosotros{
+    margin-bottom: 5rem;
+    blockquote{
+        font-weight: bold;
+        margin: 0;
+        font-size: 2rem;
+        margin-top:2rem;
+    }
+    @include tablet{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "text image";
+        column-gap: 2rem;
+    }
+}

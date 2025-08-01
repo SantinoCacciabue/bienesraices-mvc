@@ -1,0 +1,21 @@
+.testimonial{
+    background-color: $verde;
+    border-radius: 3rem;
+    font-size: 2.4rem;
+    padding:2rem;
+    color:$blanco;
+    blockquote{
+        padding-left: 5rem;
+    }
+    .comillas{
+        background-repeat: no-repeat;
+        width: 8rem;
+        height: 8rem;
+        display: block;
+        position: absolute;
+    }
+    p{
+        color:$blanco;
+        text-align: right;
+    }
+}
